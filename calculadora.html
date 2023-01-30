@@ -1,0 +1,31 @@
+<html>
+    <script>
+        //soma, subitracao, mutiplicacao, divisao resto e porcentagem
+        function calculo (operacao, n1, n2){
+            var resultado;
+            if(operacao === "soma"){
+                resultado = n1 + n2;
+
+            }else if(operacao === "subitracao"){
+                resultado = n1 - n2;
+
+            }else if(operacao === "multiplicacao"){
+                resultado = n1 * n2;
+
+            }else if(operacao === "divisao"){
+                resultado = n1 / n2;
+
+            }else if(operacao === "resto"){
+                resultado = n1 % n2;
+
+            }else if(operacao === "porcentagem"){
+                resultado = (n1 * n2)/100;
+
+            }else{
+                console.log("operação invalida! tente novamente!!")
+            }
+            return resultado;
+        }
+        
+    </script>
+</html>
